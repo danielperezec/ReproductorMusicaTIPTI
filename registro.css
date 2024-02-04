@@ -1,0 +1,25 @@
+
+.menu_inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+.usuario, .contrasena, .boton_inicio_sesion{
+    padding: 15px;
+}
+
+.usuario, .titulo_usuario,
+.contrasena, .titulo_contrasena {
+  text-align: center;
+}
+.espacio{
+    height: 20px;
+    width: 150px;
+}
+.inicio_sesion{
+    height: 30px;
+    width: 120px;
+    border-radius: 15px;
+}
