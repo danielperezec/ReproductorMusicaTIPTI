@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor</title>
+    <link rel="stylesheet" href="reproductor.css">
+</head>
+<body>
+  <header>
+    <div class="contenedor_buscar">
+        <nav class="buscador">
+            <a href="">Buscador</a>
+        </nav>
+        <div>
+            <input type="text">
+            <button> <i class="bi bi-search"></i> Buscar</button>
+            <button> <i class="bi bi-people-fill"></i> Log in</button>
+        </div>
+    </div>
+</header>
+<main>
+  <div class="contenedores_listas">
+    <div class="resultados_buscador">
+      <h3>Resultados del buscador</h3>
+      <ul class="resultados">
+        <div><li>Canción 1 <span><button><i class="bi bi-play-fill"></i></button><button><i class="bi bi-heart-fill"></i></button><button><i class="bi bi-plus-lg"></i></button></span></li></div>
+        <div><li>Canción 2 <span><button><i class="bi bi-play-fill"></i></button><button><i class="bi bi-heart-fill"></i></button><button><i class="bi bi-plus-lg"></i></button></span></li></div>
+        <div><li>Canción 3 <span><button><i class="bi bi-play-fill"></i></button><button><i class="bi bi-heart-fill"></i></button><button><i class="bi bi-plus-lg"></i></button></span></li></div>
+        <div><li>Canción 4 <span><button><i class="bi bi-play-fill"></i></button><button><i class="bi bi-heart-fill"></i></button><button><i class="bi bi-plus-lg"></i></button></span></li></div>
+        <div><li>Canción 5 <span><button><i class="bi bi-play-fill"></i></button><button><i class="bi bi-heart-fill"></i></button><button><i class="bi bi-plus-lg"></i></button></span></li></div>
+        <div><li>Canción 6 <span><button><i class="bi bi-play-fill"></i></button><button><i class="bi bi-heart-fill"></i></button><button><i class="bi bi-plus-lg"></i></button></span></li></div>
+        
+      </ul>
+    </div>
+    <div class="playlist">
+      <h3>Mi playlist</h3>
+      <ul class="lista_playlist">
+        <div> <li>Canción 1 <span><button><i class="bi bi-play-fill"></i></button><button><i class="bi bi-heart-fill"></i></button><button><i class="bi bi-trash"></i></button></span></li></div>
+        <div> <li>Canción 2 <span><button><i class="bi bi-play-fill"></i></button><button><i class="bi bi-heart-fill"></i></button><button><i class="bi bi-trash"></i></button></span></li></div>
+        <div> <li>Canción 3 <span><button><i class="bi bi-play-fill"></i></button><button><i class="bi bi-heart-fill"></i></button><button><i class="bi bi-trash"></i></button></span></li></div>
+        <div> <li>Canción 4 <span><button><i class="bi bi-play-fill"></i></button><button><i class="bi bi-heart-fill"></i></button><button><i class="bi bi-trash"></i></button></span></li></div>
+        <div> <li>Canción 5 <span><button><i class="bi bi-play-fill"></i></button><button><i class="bi bi-heart-fill"></i></button><button><i class="bi bi-trash"></i></button></span></li></div>
+        <div> <li>Canción 6 <span><button><i class="bi bi-play-fill"></i></button><button><i class="bi bi-heart-fill"></i></button><button><i class="bi bi-trash"></i></button></span></li></div>
+        <div> <li>Canción 7 <span><button><i class="bi bi-play-fill"></i></button><button><i class="bi bi-heart-fill"></i></button><button><i class="bi bi-trash"></i></button></span></li></div>
+      </ul>
+
+    </div>
+    <div class="favoritos"> 
+      <h3>Favoritos</h3>
+      <ul class="lista_favoritos">
+        <div><li> Canción 1 <span><button><i class="bi bi-play-fill"></i></button><button><i class="bi bi-heart"></i></button><button><i class="bi bi-plus-lg"></i></button></span></li></div>
+        <div><li> Canción 2 <span><button><i class="bi bi-play-fill"></i></button><button><i class="bi bi-heart"></i></button><button><i class="bi bi-plus-lg"></i></button></span></li></div>
+        <div><li> Canción 3 <span><button><i class="bi bi-play-fill"></i></button><button><i class="bi bi-heart"></i></button><button><i class="bi bi-plus-lg"></i></button></span></li></div>
+        <div><li> Canción 4 <span><button><i class="bi bi-play-fill"></i></button><button><i class="bi bi-heart"></i></button><button><i class="bi bi-plus-lg"></i></button></span></li></div>
+        <div><li> Canción 5 <span><button><i class="bi bi-play-fill"></i></button><button><i class="bi bi-heart"></i></button><button><i class="bi bi-plus-lg"></i></button></span></li></div>
+        <div><li> Canción 6 <span><button><i class="bi bi-play-fill"></i></button><button><i class="bi bi-heart"></i></button><button><i class="bi bi-plus-lg"></i></button></span></li></div>
+      </ul>
+    </div>
+    
+  </div>
+  <div class="contenedor_cancion">
+    <img src="img/musica2.jpg" alt="Cancion">
+    <ul>
+      <li> Nombre:</li>
+      <li> Duración:</li>
+      <li>Albúm:</li>
+      <li>Año:</li>
+      <li>Género:</li>
+    </ul>
+    <div class="botones_musica">
+      <button class="retroceder"><i class="bi bi-rewind-btn-fill"></i></button>
+      <button class="play"> <i class="bi bi-play-circle-fill"></i></button>
+      <button class="adelantar"><i class="bi bi-fast-forward-btn-fill"></i></button>
+      <button class="stop"><i class="bi bi-stop-fill"></i></button>
+      <button class="mute"><i class="bi bi-volume-mute-fill"></i></button>
+    </div>
+  </div>
+  
+</main>
+</body>
+</html>
